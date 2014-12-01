@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ekg/order-by/issues"
   },
-  "homepage": "https://github.com/ekg/order-by"
+  "homepage": "https://github.com/ekg/order-by",
+  "dependencies": {
+    "csv-parse": "0.0.6"
+  }
 }
