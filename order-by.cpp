@@ -34,7 +34,7 @@ int main(int argc, char** argv) {
     map<long, list<string> > result;
     list<string> unordered;
 
-    int col = atoi(argv[2]);
+    int col = atoi(argv[2]) - 1;
     ifstream f1, f2;
     f2.open(argv[3]);
     f1.open(argv[1]);
