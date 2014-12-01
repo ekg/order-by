@@ -6,7 +6,8 @@ var csvparse = require('csv-parse')
 
 if (process.argv.length < 5) {
   console.log('usage:', process.argv[0], process.argv[1], '[file1]', '[column]', '[file2]')
-  console.log('    sort the first tab-separated file according to the order of the field [column] in the second file')
+  console.log('sort the first file according to the order of the field [column] in the second')
+  console.log('[file1] should have tab-delimited records, [file2] should be one-per-line')
   process.exit(1)
 }
 
